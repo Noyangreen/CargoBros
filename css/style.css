@@ -1,0 +1,102 @@
+body,ul,img,p,h1,h2{
+    padding: 0;
+    margin: 0;
+}
+/* .body,html{
+    background-color: rgb(102, 102, 102);
+} */
+
+
+.head
+{
+    width: 100%;
+}
+
+
+.container
+{
+    max-width: 1024px;
+    margin:  auto;
+    background-color: tomato;
+    
+  
+
+} 
+
+.left_menu
+{
+    background-image: url("../images/truck\ -\ копия.jpg");
+    background-size: cover;
+    width: 6vh;
+    height: 94vh;
+    float: left;
+    margin-left: 2vh;
+    box-shadow: 0px 0px 30px 11px;
+  
+} 
+
+.bgimg
+{
+    background-image: url("../images/truck.jpg");
+    height: 94vh;
+    width: 100%;
+    background-size: cover;
+    /* opacity: 70.9%; */
+}
+
+.logo_head
+{
+    font-size: 18px;
+    font-family: sans-serif;
+    padding-top: 32px;
+    color:rgb(255, 255, 255);
+    
+   
+}
+.bgimg ul
+{
+    list-style:none;  
+}
+
+.nav a
+{
+text-decoration: none;
+color: rgb(255, 255, 255);
+font-size: 17px;
+}
+
+.nav,li 
+{
+ float: right;
+ margin: 0px 20px 0px;
+ margin-top: 10px;
+
+
+}
+
+ .log input 
+{
+  border-radius: 20px;
+    padding: 9px 20px 8px 20px;
+    border: 2px solid #ffff;
+    background-color: transparent;
+    color: #ffff;
+} 
+.buton input
+{
+    border-radius: 20px;
+    padding:10px 30px 10px 30px  ;
+    border: none;
+    background-color: rgb(61, 67, 181);
+    color: #ffff;
+}
+
+span
+{
+    float: right;
+    margin-top: 0px;
+
+}
+
+
+

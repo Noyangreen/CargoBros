@@ -1,0 +1,116 @@
+
+body,h1,h2,h3,ul,p,span,a
+{
+    padding: 0;
+    margin: 0;
+}
+
+.control
+{
+    width: 600px;
+    margin: 0 auto;
+    margin-left: 100px;
+    
+   
+}
+.bgimg
+{
+    background-image: url("../images/seb-creativo-3jG-UM8IZ40-unsplash.jpg");
+    height: 790px;
+    background-size: cover;
+    background-position: center;
+    width: 100vh;
+    position: fixed;
+}
+
+.vieo img
+{
+    padding-top: 280px;
+    padding-left: 210px;
+    cursor: pointer;
+    
+}
+li
+{
+    list-style: none;
+}
+.nav li
+{
+    display: inline;
+    float: right;
+    padding-top: 20px;
+    padding-right: 10px;
+    color: rgb(227, 235, 235);
+    font-size: 16px;
+}
+.left
+{
+    float: left;
+}
+
+#language
+{
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: progress;
+}
+
+
+#language:hover
+{
+    background-color: #EB3F57;
+    transition: 0.7s;
+}
+.left_inputs
+ {  position: relative;
+    z-index: 2; 
+    float: right;
+    margin-right: 190px;
+    margin-top: 150px;
+    
+}
+
+
+.left_inputs li
+{
+    font-size: 30px;
+    font-family: sans-serif;
+    color: #fff;
+}
+.left_inputs input
+{
+    border: none;
+    background-color: transparent;
+    border-bottom:  1px solid #EB3F57;
+    border-bottom-left-radius: 10px;
+    padding: 10px 30px 10px 30px;
+}
+
+.block
+{
+    background-color: #424158;
+    width: 100%;
+    position: absolute;
+    height: 784px;
+}
+
+.inta input
+{
+    color: #fff;
+    border: 2px solid red;
+    background-color: red;
+    padding: 10px 68px 10px 68px;
+    margin-top: 35px;
+    box-shadow: 5px 5px 18px 10px rgba(152, 5, 5, 0.708);
+}
+
+.wiz i
+{
+    border: 2px solid red;
+    padding: 12px 14px 3px 10px;
+}
+.wiz
+{
+   border: 2px solid red;
+}
